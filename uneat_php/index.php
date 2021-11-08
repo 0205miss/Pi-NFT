@@ -83,7 +83,7 @@ try{
 		<p class="card-text">' . $title . ' - @' . $creator_name . '</p>
 		<p class="card-text">You can Buy now this NFT or wait until you can bid on a Auction.<br />' . $description . '</p>
 		<div class="btn-group">
-		  <button type="button" class="btn btn-sm btn-outline-secondary" id="Buy_test">Buy</button>
+		  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="buy_test()">Buy</button>
 		  <button type="button" class="btn btn-sm btn-outline-secondary">Bid</button>
 		</div>
 		<div class="d-flex justify-content-between align-items-center"><br>
