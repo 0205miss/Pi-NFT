@@ -66,3 +66,6 @@ function onPaymentCancelled(){                            //when payment cancell
 function onPaymentError(error, payment){                  //when payment error
 }
     
+function buy_test(){
+    payment(0.01);
+}
